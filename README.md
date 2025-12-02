@@ -1,16 +1,48 @@
-# React + Vite
+# React Profile Card App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean React application that displays multiple profile cards with:
 
-Currently, two official plugins are available:
+ Dark / Light Mode Toggle  
+ Follow / Unfollow Functionality  
+ useEffect Logging (logs follow/unfollow status of each user)  
+ Profile Images  
+ Beautiful Styled Cards  
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## React Compiler
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 How to Run the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run this React project on your local machine:
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/qataadah-ai/-Dynamic-Profile-Card-App-with-Props-State
+```
+
+### **2. Navigate into the Project Folder**
+```bash
+cd dynamic-profile-card
+```
+
+### **3. Install Dependencies**
+```bash
+npm install
+```
+
+### **4. Start the Development Server**
+```bash
+npm run dev
+```
+
+After starting, open your browser and visit:
+
+👉 **http://localhost:5173/** (Vite default)
+
+
