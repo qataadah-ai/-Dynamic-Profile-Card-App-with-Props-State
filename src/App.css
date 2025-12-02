@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+.btn{
+    background-color: rgb(7, 92, 219);
+    color: aliceblue;
+    border: none;
+    padding: 8px 40px;
+    border-radius:4rem ;
+}
+.btn:hover{
+    background-color: rgb(17, 17, 176);
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+.switch{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+.card-container{
+   padding:10px;
+   display:flex;
+   justify-content:center;
+   gap:4rem;
+   align-items:center; 
+   min-height:80vh;
+
+}
+ 
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img{
+  width:100px;       
+  height:100px;    
+  border-radius: 50%;  
+  object-fit: cover;   
+  display: block;
+  margin:10px auto ;
+}

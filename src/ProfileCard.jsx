@@ -1,25 +1,36 @@
 import React from 'react'
+import "./App.css";
 
-function ProfileCard({ name, bio, avatar, isFollowed ,toggleFollow,isDark }) {
-    return (
-       <div style={{
-  backgroundColor: isDark ? "#333" : "#fff",
-  color: isDark ? "#fff" : "#000",
-  border: "1px solid #ccc",
-  padding: "15px",
-  marginBottom: "10px",
-  width: "250px",
-  borderRadius: "10px"
-}}>
-            <img src={avatar} alt={name} />
-            <h2>{name}</h2>
-            <p>{bio}</p>
-           <button onClick={toggleFollow}>
-  {isFollowed ? "Unfollow" : "Follow"}
-</button>
+// ReUsable ProfileCard Component
 
-        </div>
-    )
+function ProfileCard({name,bio,avatar,isFollowed,IsDark,toggleFollow}) {
+  return (
+
+    <div className='profile-card'
+    style={{
+      backgroundColor: IsDark ? "#333" : "#fff",
+  color: IsDark ? "#fff" : "#000",
+  
+    }}>
+
+      <h2>{name}</h2>
+
+      <img className='card-img'
+
+      src={avatar} />
+
+      <p>{bio}</p>
+
+     {/* Button for follow/UnFolow */}
+      <button
+      className='btn'
+       onClick={toggleFollow}>
+        {isFollowed?"Unfollow":"Follow"}
+      </button>
+      
+     
+    </div>
+  )
 }
 
 export default ProfileCard
