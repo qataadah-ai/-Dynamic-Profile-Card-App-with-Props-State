@@ -1,12 +1,24 @@
 # React Profile Card App
 
-A simple and clean React application that displays multiple profile cards with:
+A simple and clean React application that displays multiple Dynamic profile cards with:
 
- Dark / Light Mode Toggle  
- Follow / Unfollow Functionality  
- useEffect Logging (logs follow/unfollow status of each user)  
- Profile Images  
- Beautiful Styled Cards  
+## Features
+
+- **Dark / Light Mode Toggle**  
+  Switch between dark and light themes seamlessly.
+
+- **Follow / Unfollow Functionality**  
+  Users can follow or unfollow profiles with a simple button click.
+
+- **useEffect Logging**  
+  Logs the follow/unfollow status of each user in the console whenever it changes.
+
+- **Profile Images**  
+  Displays user profile images (avatars) on each card.
+
+- **Beautiful Styled Cards**  
+  Each profile card is designed with a clean and responsive layout.
+ 
 ---
 
 ## 🛠️ Technologies Used
